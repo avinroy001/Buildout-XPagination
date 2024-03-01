@@ -1,0 +1,27 @@
+table{
+  width: 100%;
+  text-align: left;
+}
+table th{
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+}
+h3{
+  text-align: center;
+}
+button {
+  background-color: #04AA6D;
+}
+span{
+  background-color: #04AA6D;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+}
+.butt{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
