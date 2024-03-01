@@ -13,7 +13,9 @@ function App() {
     .then((res)=>{setApiData(res.data)
       setTotalPage(Math.ceil((res.data).length/10))
     })
-    .catch((err)=>console.log(err))
+    .catch((err)=>{console.log(err)
+      alert('failed to fetch data');
+    })
   },[])
   console.log(apiData);
   console.log(totalPage);
